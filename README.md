@@ -22,3 +22,8 @@ cd tests/js-tests
 cocos compile -p ios|mac|android|win32|win8_1|metro|web -m debug|release
 cocos run -p ios|mac|android|win32|win8_1|metro|web -m debug|release
 ```
+
+5. Publicar y minificar proyecto:
+```bash
+cocos compile -p web -m release
+```
